@@ -1,3 +1,6 @@
+//Might have to copy paste run it a few times.
+// It can just stop after a couple of videos too.
+
 let dropdownMenus = document.querySelectorAll('yt-icon-button#button.dropdown-trigger.style-scope.ytd-menu-renderer');
 
 let numberOfTimesToExecute = dropdownMenus.length;
@@ -33,7 +36,7 @@ async function removeVideos() {
             buttonToClick.click();
 
             // Add a delay to prevent rate-limiting
-            await delay(1500); // Adjust this value (1500ms = 1.5 seconds)
+            await delay(100); // Adjust this value (1500ms = 1.5 seconds)
         }
     }
 }

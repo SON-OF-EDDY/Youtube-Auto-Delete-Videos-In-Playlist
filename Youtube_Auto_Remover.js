@@ -1,5 +1,5 @@
 //Might have to copy paste run it a few times.
-// It can just stop after a couple of videos too.
+// It can just stop after a few tens of videos too.
 
 let dropdownMenus = document.querySelectorAll('yt-icon-button#button.dropdown-trigger.style-scope.ytd-menu-renderer');
 
